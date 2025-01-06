@@ -28,7 +28,7 @@ output: `Setting 'myremote' as a default remote.`
 9. Now - `dvc commit` and then `dvc push`
 9. Do a git add-commit-push to mark this stage as first version of data.
 10. Now make changes to mycode.py to append a new row in data, check changes via "dvc status"
-11. Again - - `dvc commit` and then `dvc push`
+11. Again - - `dvc commit` and then `dvc push`(s3 files will be pushed)
 12. Then git add-commit-push (we're saving V2 of our data at this point)
 13. Check dvc/git status, everything should be upto date.
 14. Now repeat step 10-12 for v3 of data.
