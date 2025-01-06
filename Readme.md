@@ -24,7 +24,7 @@ output: `Setting 'myremote' as a default remote.`
 ![alt text](assets/image-1.png)
    Because initially we were tracking data/ folder from git so now we remove it for DVC to handle.
    ![alt text](assets/image-2.png)
-8. Again we do "dvc add data/" (creates data.dvc) then `git add .gitignore data.dvc`
+8. Again we do `dvc add data/` (creates data.dvc) then `git add .gitignore data.dvc`
 9. Now - `dvc commit` and then `dvc push`
 9. Do a git add-commit-push to mark this stage as first version of data.
 10. Now make changes to mycode.py to append a new row in data, check changes via "dvc status"
