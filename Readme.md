@@ -36,3 +36,4 @@ output: `Setting 'myremote' as a default remote.`
 New files and id will be created in s3 folder after `dvc commit` and `dvc push`
 13. Check dvc/git status, everything should be upto date.
 14. Now repeat step 10-12 for v3 of data.
+15. Now you can roll back to any of the previous data/code versions. First check SHA id using `git log --oneline` then `git checkout <sha_id>` 
